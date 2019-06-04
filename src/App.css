@@ -1,24 +1,43 @@
+body {
+  background-color: chocolate;
+}
 .App {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  align-content: center;
+  position: fixed;
+  margin-top: 15%;
+  margin-left: 25%;
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px;
+  border-style: solid;
+  border-color: black;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  width: 100%;
   color: white;
+  padding-top: 5%;
+  box-sizing: border-box;
 }
 
 .App-intro {
+  width: 100%;
   font-size: large;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#login {
+  width: 95.5%;
+  padding: 2%;
+  text-align: center;
+}
+#password {
+  width: 95.5%;
+  padding: 2%;
+  text-align: center;
+}
+#submit {
+  width: 100%;
+  padding: 2%;
+  text-align: center;
 }
